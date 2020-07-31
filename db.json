@@ -1,0 +1,16 @@
+{
+  "categorias": [
+    {
+      "id": 1,
+      "name": "Front End",
+      "description": "Melhor parte da web",
+      "color": "#6BD1FF"
+    },
+    {
+      "id": 2,
+      "name": "Back End",
+      "description": "Uma parte da web",
+      "color": "#6BD1FF"
+    }
+  ]
+}
