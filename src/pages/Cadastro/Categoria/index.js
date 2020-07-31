@@ -81,8 +81,8 @@ export default function CadastroCategoria() {
         )}
 
         <ul>
-          {categorias.map((categoria, index) => (
-            <li key={index}>{categoria.name}</li>
+          {categorias.map((categoria) => (
+            <li key={categoria.id}>{categoria.name}</li>
           ))}
         </ul>
 
