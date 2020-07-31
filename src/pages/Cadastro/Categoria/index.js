@@ -34,8 +34,8 @@ export default function CadastroCategoria() {
   }
 
   useEffect(() => {
-    const URL = 'http://localhost:8080/categorias';
-    fetch(URL).then(async (res) => {
+    const URL_TOP = 'https://vituflix.herokuapp.com/';
+    fetch(URL_TOP).then(async (res) => {
       const resposta = await res.json();
       setCategorias([...resposta]);
     });
