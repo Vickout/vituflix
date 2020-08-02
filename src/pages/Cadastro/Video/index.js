@@ -41,7 +41,7 @@ export default function CadastroVideo() {
         <FormField
           label="Título do vídeo: "
           name="title"
-          value={values.name}
+          value={values.title}
           onChange={HandleChange}
         />
 
