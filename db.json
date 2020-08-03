@@ -2,43 +2,48 @@
   "categorias": [
     {
       "id": 1,
-      "title": "Front End",
+      "title": "Programação",
       "color": "#6BD1FF",
+      "img": "https://image.flaticon.com/icons/svg/1336/1336494.svg",
       "link_extra": {
-        "text": "Formação de Front End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
+        "text": "",
+        "url": ""
       }
     },
     {
       "id": 2,
-      "title": "Back End",
+      "title": "Design",
       "color": "#00C86F",
+      "img": "https://image.flaticon.com/icons/svg/2620/2620252.svg",
       "link_extra": {
-        "text": "Cursos de Back End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-programacao"
+        "text": "",
+        "url": ""
       }
     },
     {
       "id": 3,
-      "title": "Data Science e Inteligência Artificial",
+      "title": "Arte",
       "color": "#9cd33b",
+      "img": "https://image.flaticon.com/icons/svg/2970/2970785.svg",
       "link_extra": {
-        "text": "Cursos de Data Science na Alura",
-        "url": "https://www.alura.com.br/cursos-online-mobile"
+        "text": "",
+        "url": ""
       }
     },
     {
       "id": 4,
-      "title": "Filmes",
+      "title": "Comédia",
+      "img": "https://image.flaticon.com/icons/svg/702/702345.svg",
       "color": "orange"
     },
     {
       "id": 5,
-      "title": "Games",
+      "title": "Canais internacionais",
       "color": "red",
+      "img": "https://image.flaticon.com/icons/svg/3095/3095050.svg",
       "link_extra": {
-        "text": "Formação de Jogos na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
+        "text": "",
+        "url": ""
       }
     }
   ],
@@ -46,32 +51,32 @@
     {
       "id": 1,
       "categoriaId": 1,
-      "title": "SEO com React",
-      "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+      "title": "Como Video Games Me Ensinaram a Concluir Qualquer Projeto Na Vida",
+      "url": "https://www.youtube.com/watch?v=_hobgOFDekg"
     },
     {
       "id": 2,
       "categoriaId": 1,
-      "title": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
-      "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw"
+      "title": "Freelancer, Síndrome do Impostor, Site para Portfólio? Tempo e Foco | #PR 12",
+      "url": "https://www.youtube.com/watch?v=hka7ay9F1kk"
     },
     {
       "id": 3,
       "categoriaId": 1,
-      "title": "Componentização com VanillaJS #AluraMais",
-      "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
+      "title": "75 - A Web é um detalhe!",
+      "url": "https://www.youtube.com/watch?v=iRo70Mf2M1I"
     },
     {
       "id": 4,
       "categoriaId": 1,
-      "title": "Pare de chutar e aprenda a display: inline #01",
-      "url": "https://www.youtube.com/watch?v=5PS6ku8NzIE"
+      "title": "Micro Frontends, Node.js, Unform, StyleSheets, Styled-components, ORMs | #PR 13",
+      "url": "https://www.youtube.com/watch?v=YQr5CIRZ4Og"
     },
     {
       "id": 5,
       "categoriaId": 1,
-      "title": "Template String: Interpolando strings com JavaScript #AluraMais",
-      "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0"
+      "title": "Vagas Abertas para Lixeiro Espacial em 2030? // #DecodeCDF2030",
+      "url": "https://www.youtube.com/watch?v=wadeOFqG3o8"
     },
     {
       "id": 6,
@@ -82,110 +87,110 @@
     {
       "id": 7,
       "categoriaId": 1,
-      "title": "Novidades do Angular v9",
-      "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
+      "title": "A Tecnologia em 2030 - #DecodeCDF2030",
+      "url": "https://www.youtube.com/watch?v=5lTo30Gm9w4"
     },
     {
       "id": 8,
       "categoriaId": 2,
-      "title": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
-      "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
+      "title": "Why MVP is the Antithesis of Good UX",
+      "url": "https://www.youtube.com/watch?v=9Swz0LJAEdY"
     },
     {
       "id": 9,
       "categoriaId": 2,
-      "title": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
-      "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY"
+      "title": "Quando usar Qual método de pesquisa de UX",
+      "url": "https://www.youtube.com/watch?v=OtUWbsvCujM"
     },
     {
       "id": 10,
       "categoriaId": 2,
-      "title": "Programei 4 robôs que criam vídeos para mim no YouTube",
-      "url": "https://www.youtube.com/watch?v=kjhu1LEmRpY"
+      "title": "Natasha Jen: Design Thinking is Bullsh*t",
+      "url": "https://www.youtube.com/watch?v=_raleGrTdUg&t=203s"
     },
     {
       "id": 11,
       "categoriaId": 2,
-      "title": "API: Dicionário do Programador",
-      "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
+      "title": "The Faker You Are, the More Successful You Can Be | InvisionApp Design Lead | Pablo Stanley",
+      "url": "https://www.youtube.com/watch?v=bEg5ySTUGxE&t=154s"
     },
     {
       "id": 12,
       "categoriaId": 2,
-      "title": "Usando Git Direito",
-      "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
+      "title": "UX Design: How To Get Started (A Full Guide - 2020)",
+      "url": "https://www.youtube.com/watch?v=t0aCoqXKFOU&t=1s"
     },
     {
       "id": 13,
       "categoriaId": 3,
-      "title": "Teste de Turing",
-      "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
+      "title": "TUDO SOBRE TINTAS ARTÍSTICAS E SUAS DIFERENÇAS (Aquarela, Gouache, Acrílica, Tecido, Óleo e Nanquim)",
+      "url": "https://www.youtube.com/watch?v=4idGGfFgI2s&t=1s"
     },
     {
       "id": 14,
       "categoriaId": 3,
-      "title": "O que é Data Science?",
-      "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
+      "title": "10 DICAS PRA COMEÇAR NA AQUARELA!",
+      "url": "https://www.youtube.com/watch?v=jv0Nrr06mt8"
     },
     {
       "id": 15,
       "categoriaId": 3,
-      "title": "Melhor forma de aprender Python",
-      "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
+      "title": "MATERIAIS AQUARELA - Quais escolher?",
+      "url": "https://www.youtube.com/watch?v=A2XxkzhdvXU"
     },
     {
       "id": 16,
       "categoriaId": 3,
-      "title": "Como ingressar no mercado de Data Science?",
-      "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
+      "title": "DICAS PARA COMEÇAR A PINTAR AQUARELA",
+      "url": "https://www.youtube.com/watch?v=g-nm2Iv_kww"
     },
     {
       "id": 17,
       "categoriaId": 4,
-      "title": "Interestellar",
-      "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
+      "title": "PROMO - EU, EU MESMO E STAND-UP - Júnior Chicó",
+      "url": "https://www.youtube.com/watch?v=2ta070v1-7E"
     },
     {
       "id": 18,
       "categoriaId": 4,
-      "title": "Gattaca",
-      "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
+      "title": "A HISTÓRIA DOS CARROS - NIL AGRA - STAND UP COMEDY",
+      "url": "https://www.youtube.com/watch?v=R8ihRkFxv-w"
     },
     {
       "id": 19,
       "categoriaId": 4,
-      "title": "A Chegada",
-      "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
+      "title": "AFONSO PADILHA - POR QUE AINDA NÃO DESCRIMINALIZOU?",
+      "url": "https://www.youtube.com/watch?v=go0QuPz8uEo"
     },
     {
       "id": 20,
       "categoriaId": 4,
-      "title": "Feitiço do Tempo",
-      "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
+      "title": "CARENTE NA QUARENTENA - STAND UP",
+      "url": "https://www.youtube.com/watch?v=LwLXJTGXPAE"
     },
     {
       "id": 21,
       "categoriaId": 5,
-      "title": "Final Fantasy 7",
-      "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
+      "title": "Almoçando com refeição local brasileira pela primeira vez",
+      "url": "https://www.youtube.com/watch?v=NIzI319M5cU"
     },
     {
       "id": 22,
       "categoriaId": 5,
-      "title": "Assassins Creed Valhalla",
-      "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
+      "title": "PINTEI MEU CABELO SOZINHO no tédio",
+      "url": "https://www.youtube.com/watch?v=nYIiBIfyEAE"
     },
     {
       "id": 23,
       "categoriaId": 5,
-      "title": "God of War 4",
-      "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
+      "title": "COMO MINHAS FILHAS APRENDEM 3 LINGUAS AO MESMO TEMPO | ROSA FILIPOVIC",
+      "url": "https://www.youtube.com/watch?v=qeMe6jTf7zs"
     },
     {
       "id": 24,
       "categoriaId": 5,
-      "title": "Resident Evil 8",
-      "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
+      "title": "Kiko Zambianchi - Primeiros Erros -singer reaction & review #kikizambianchi",
+      "url": "https://www.youtube.com/watch?v=K24E_-Dfz5U"
     }
   ]
 }
