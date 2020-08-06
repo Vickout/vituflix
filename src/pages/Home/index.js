@@ -18,7 +18,7 @@ function Home() {
   }, []);
 
   return (
-    <PageDefault paddingAll={0}>
+    <PageDefault paddingAll={0} label="Novo vídeo" categoryURL="/cadastro/video">
 
       {dadosIniciais.length === 0 && (<div>Loading...</div>)}
 

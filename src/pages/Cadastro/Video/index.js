@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Link, useHistory } from 'react-router-dom';
+import { useHistory } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
 import useForm from '../../../hooks/useForm';
@@ -34,7 +34,7 @@ export default function CadastroVideo() {
   }
 
   return (
-    <PageDefault>
+    <PageDefault label="Cadastrar Categoria" categoryURL="/cadastro/categoria">
       <h1>Cadastro de Vídeo</h1>
 
       <form onSubmit={HandleSubmit}>
@@ -64,10 +64,6 @@ export default function CadastroVideo() {
           Cadastrar
         </Button>
       </form>
-
-      <Link to="/cadastro/categoria">
-        Cadastrar categoria
-      </Link>
     </PageDefault>
   );
 }

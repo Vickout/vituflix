@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
@@ -38,7 +37,7 @@ export default function CadastroCategoria() {
     <PageDefault>
       <h1>
         Cadastro de Categoria:
-        {values.name}
+        {values.title}
       </h1>
 
       <form onSubmit={HandleSubmit}>
@@ -46,8 +45,8 @@ export default function CadastroCategoria() {
         <FormField
           label="Nome da Categoria: "
           type="text"
-          name="name"
-          value={values.name}
+          name="title"
+          value={values.title}
           onChange={HandleChange}
         />
 
@@ -67,24 +66,23 @@ export default function CadastroCategoria() {
           onChange={HandleChange}
         />
 
+        <h2>Categorias</h2>
+
         {categorias.length === 0 && (
           <div>
             Loading...
           </div>
         )}
 
-        <ul>
+        <ul style={{ paddingBottom: '25px' }}>
           {categorias.map((categoria) => (
-            <li key={categoria.id}>{categoria.title}</li>
+            <li key={categoria.id} style={{ color: categoria.color, padding: '10px' }}>{categoria.title}</li>
           ))}
         </ul>
 
         <Button>Cadastrar</Button>
       </form>
 
-      <Link to="/">
-        Ir para Home
-      </Link>
     </PageDefault>
   );
 }

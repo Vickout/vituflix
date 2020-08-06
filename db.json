@@ -4,7 +4,7 @@
       "id": 1,
       "title": "Programação",
       "color": "#6BD1FF",
-      "img": "https://image.flaticon.com/icons/svg/1336/1336494.svg",
+      "img": "https://image.flaticon.com/icons/svg/2920/2920244.svg",
       "link_extra": {
         "text": "",
         "url": ""
@@ -34,7 +34,11 @@
       "id": 4,
       "title": "Comédia",
       "img": "https://image.flaticon.com/icons/svg/702/702345.svg",
-      "color": "orange"
+      "color": "orange",
+      "link_extra": {
+        "text": "",
+        "url": ""
+      }
     },
     {
       "id": 5,

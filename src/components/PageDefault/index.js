@@ -8,6 +8,7 @@ const Main = styled.main`
     color: var(--white);
     flex: 1;
     padding-top: 50px;
+    padding-bottom: 50px;
     padding-left: 5%;
     padding-right: 5%;
     ${({ paddingAll }) => css`
@@ -15,10 +16,10 @@ const Main = styled.main`
     `}
 `;
 
-export default function PageDefault({ children, paddingAll }) {
+export default function PageDefault({ children, paddingAll, label, categoryURL }) {
   return (
     <>
-      <Menu />
+      <Menu label={label} categoryURL={categoryURL} />
       <Main paddingAll={paddingAll}>
         {children}
       </Main>
